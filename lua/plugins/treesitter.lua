@@ -6,7 +6,7 @@ return {
       "lua",
       "vim",
       "rust",
-      "python",
     },
+    auto_install = true,
   },
 }

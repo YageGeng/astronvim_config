@@ -5,4 +5,5 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.completion.avante-nvim" },
 }

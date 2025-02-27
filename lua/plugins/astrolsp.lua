@@ -22,6 +22,7 @@ return {
         },
       },
       disabled = { -- disable formatting capabilities for the listed language servers
+        "jsonls",
       },
       timeout_ms = 1000, -- default format timeout
     },
