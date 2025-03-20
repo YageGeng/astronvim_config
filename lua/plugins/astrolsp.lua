@@ -15,14 +15,16 @@ return {
       format_on_save = {
         enabled = true, -- enable or disable format on save globally
         allow_filetypes = { -- enable format on save for specified filetypes only
-          "rust",
+          -- "rust",
           "lua",
+          "toml",
+          "json",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
         },
       },
       disabled = { -- disable formatting capabilities for the listed language servers
-        "jsonls",
+        -- "jsonls",
       },
       timeout_ms = 1000, -- default format timeout
     },

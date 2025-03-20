@@ -45,6 +45,17 @@ return {
           end,
           desc = "Close buffer from tabline",
         },
+        ["<Leader>p"] = {
+          '"+p',
+          desc = "Paste from system clipboard",
+        },
+      },
+
+      v = {
+        ["<Leader>y"] = {
+          '"+y',
+          desc = "Copy to system clipboard",
+        },
       },
     },
   },
